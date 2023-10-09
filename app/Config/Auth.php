@@ -106,7 +106,7 @@ class Auth extends ShieldAuth
         'tokens'  => AccessTokens::class,
         'session' => Session::class,
         'hmac'    => HmacSha256::class,
-        // 'jwt'     => JWT::class,
+        'jwt'     => JWT::class,
     ];
 
     /**
@@ -133,7 +133,7 @@ class Auth extends ShieldAuth
         'session',
         'tokens',
         'hmac',
-        // 'jwt',
+        'jwt',
     ];
 
     /**
